@@ -7,7 +7,7 @@ export PATH=$PATH:/usr/local/bin/go/bin
 
 git clone https://github.com/knqyf263/pet
 cd pet
-go build
+/usr/local/go/bin/go build
 sudo cp pet /usr/local/bin
 
 exec "$SHELL"
