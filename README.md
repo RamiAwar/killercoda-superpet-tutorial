@@ -1,3 +1,3 @@
 # Superpet Courses
-- Course 1: Pet Basics
-- Course 2: Superpet
+- Course 1: Superpet Basics
+
