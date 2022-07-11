@@ -1,17 +1,17 @@
-Snippets are small pieces of code that we often find repeating throughout our days as software engineers. Over time we see patterns and find these snippets are simple strings of code that we like to apply to different contexts. Sometimes we like to share them with our friends as tips, tutorials, or collect them into cheat sheets.
+## Installing Superpet
 
-There is a plethora of open source and commercial snippet managers available for various targets. While they all have differentiating features, at their core they manage a library of code snippets. Recently popular are gist repositories that are similar if not the same as snippet libraries.
+The easiest way of installing Superpet is to download a prebuilt binary and add it to your PATH.
 
-This lab focuses on a specific type of snippet and environment manager tuned for command-line interfaces (CLIs). It's called Superpet and it's based on Pet.
+The alternative is building it from source using `go build`, which requires that you have Go installed.
 
-These next steps provide an introduction to Pet as a potential way to increase your productivity and learning.
+```
+wget https://github.com/RamiAwar/superpet/releases/download/v0.5.5/superpet_0.5.5_linux_amd64.tar.gz
+```{{exec}}
 
-You will learn how to:
+```
+sudo tar -xvf superpet_0.5.5_linux_amd64.tar.gz && sudo chmod +x superpet
+```{{exec}}
 
-- install Superpet
-- use the Superpet commands to manage and use snippets
-- use the Superpet commands to manage and use environments
-- sync your snippets to a Git Gists repository
-- use Superpet to manage your Kubernetes cheat sheets
-
-
+```
+sudo mv superpet /usr/local/bin
+```{{exec}}
