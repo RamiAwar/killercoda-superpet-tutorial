@@ -15,3 +15,11 @@ sudo tar -xvf superpet_0.5.5_linux_amd64.tar.gz && sudo chmod +x superpet
 ```
 sudo mv superpet /usr/local/bin
 ```{{exec}}
+
+
+Verify that Superpet is installed:
+
+```
+superpet version && superpet --help
+```{{exec}}
+

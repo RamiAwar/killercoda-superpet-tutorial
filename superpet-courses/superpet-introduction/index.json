@@ -8,14 +8,13 @@
     },
     "steps": [
       {
-        "title": "Create an empty file",
+        "title": "Install superpet",
         "text": "step1/text.md",
         "verify": "step1/verify.sh"
       },
       {
-        "title": "Create a file with text",
-        "text": "step2/text.md",
-        "verify": "step2/verify.sh"
+        "title": "Superpet list and search",
+        "text": "step2/text.md"
       },
       {
         "title": "Delete a file",
